@@ -15,12 +15,12 @@ const App = () => {
 <Header />
 
 <Routes>
-<Route path="/signin" element={<Signin />} />
-<Route path="/home" element={<Index />} />
-<Route path="/addquestion" element={<Question/>} />
-<Route path="/fullquestion/:_id" element={<Indexfull/>} />
-<Route path="/" element={<Signup/>}></Route>
-<Route path="/postanswer/:questionid" element={<Answerview/>}></Route>
+<Route path="https://mini-stack-overflow.onrender.com/signin" element={<Signin />} />
+<Route path="https://mini-stack-overflow.onrender.com/home" element={<Index />} />
+<Route path="https://mini-stack-overflow.onrender.com/addquestion" element={<Question/>} />
+<Route path="https://mini-stack-overflow.onrender.com/fullquestion/:_id" element={<Indexfull/>} />
+<Route path="https://mini-stack-overflow.onrender.com/" element={<Signup/>}></Route>
+<Route path="https://mini-stack-overflow.onrender.com/postanswer/:questionid" element={<Answerview/>}></Route>
 </Routes>
 
 
