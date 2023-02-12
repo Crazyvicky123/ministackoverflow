@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://ministackoverflow-mini.onrender.com",
+  "proxy": "https://mini-stack-overflow.onrender.com",
   "dependencies": {
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.8",
