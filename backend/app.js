@@ -16,6 +16,9 @@ app.use(cors());
 app.use(router);
 
 const port=process.env.port || 8005;
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static("frontend/build"))
+}
 
 
 app.listen(port,()=>{
