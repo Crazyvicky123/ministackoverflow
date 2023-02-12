@@ -27,7 +27,7 @@ const senddata = async (e) =>{
   e.preventDefault();
   const {email,password} =logdata;
 
-  const res = await fetch("signin",{
+  const res = await fetch("https://mini-stack-overflow.onrender.com/signin",{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body:JSON.stringify({email,password})
