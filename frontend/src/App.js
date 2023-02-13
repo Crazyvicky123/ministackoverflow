@@ -15,11 +15,11 @@ const App = () => {
 <Header />
 
 <Routes>
-<Route path="/signin" element={<Signin />} />
+<Route path="/" element={<Signin />} />
 <Route path="/home" element={<Index />} />
 <Route path="/addquestion" element={<Question/>} />
 <Route path="/fullquestion/:_id" element={<Indexfull/>} />
-<Route path="/" element={<Signup/>}></Route>
+<Route path="/f" element={<Signup/>}></Route>
 <Route path="/postanswer/:questionid" element={<Answerview/>}></Route>
 </Routes>
 
