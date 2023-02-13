@@ -26,7 +26,7 @@ const Signup = () => {
       e.preventDefault();
       const {name,email,password,cpassword} =udata;
 
-      const res = await fetch("https://ministackoverflow-mini.onrender.com/signup",{
+      const res = await fetch("https://mini-stack-overflow.onrender.com/signup",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({name,email,password,cpassword})
