@@ -19,7 +19,7 @@ const App = () => {
 <Route path="/home" element={<Index />} />
 <Route path="/addquestion" element={<Question/>} />
 <Route path="/fullquestion/:_id" element={<Indexfull/>} />
-<Route path="/" element={<Signup/>}></Route>
+<Route path="/n" element={<Signup/>}></Route>
 <Route path="/postanswer/:questionid" element={<Answerview/>}></Route>
 </Routes>
 
