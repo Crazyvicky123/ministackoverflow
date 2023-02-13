@@ -15,7 +15,7 @@ const App = () => {
 <Header />
 
 <Routes>
-<Route path="/signin" element={<Signin />} />
+<Route path="https://ministackoverflow-mini.onrender.com/signin" element={<Signin />} />
 <Route path="/home" element={<Index />} />
 <Route path="/addquestion" element={<Question/>} />
 <Route path="/fullquestion/:_id" element={<Indexfull/>} />
